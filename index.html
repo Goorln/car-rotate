@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>360度3D汽车旋转</title>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/circlr.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div id="circlr">
+			
+		</div>
+	</div>
+</body>
+<script>
+	for (var i = 1; i <= 70; i++) {
+		// var cir = document.getElementById('circlr');
+		//创建Img
+		var img = document.createElement('img');
+		//添加到页面中
+		$('#circlr')[0].appendChild(img);
+		//设置值
+		img.setAttribute('data-src', 'picture/'+i+'.png');
+	}
+	
+	$(function(){
+		var cir = circlr('circlr',{
+			scorll:true,
+		});
+	});	
+</script>
+</html>

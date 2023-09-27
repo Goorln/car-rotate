@@ -1,17 +1,17 @@
-##360度3D汽车旋转
+## 360度3D汽车旋转
 
-####1.引入js文件
+#### 1.引入js文件
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/circlr.js"></script>
-####2.书写样式
+#### 2.书写样式
 
 	<div class="container">
 		<div id="circlr">
 			
 		</div>
 	</div>
-####3.书写JavaScript代码
+#### 3.书写JavaScript代码
 
 	<script>
 	for (var i = 1; i <= 70; i++) {
